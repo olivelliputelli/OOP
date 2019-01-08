@@ -29,7 +29,7 @@ namespace ClassiUtiliClassLibrary
         }
 
         public void AggiungiGradi(int gradi)
-        => this.AngoloInSecondi += (gradi * 60 * 60);
+            => this.AngoloInSecondi += (gradi * 60 * 60);
 
         public void AggiungiPrimi(int primi)
             => this.AngoloInSecondi += (primi * 60);
