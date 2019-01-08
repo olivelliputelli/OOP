@@ -14,7 +14,7 @@ namespace ClassiUtiliClassLibrary
 
         public double Area() => Math.PI * Math.Pow(this.Raggio, 2);
 
-        public double Circonferenza() => 2*Math.PI * this.Raggio, 2;
+        public double Circonferenza() => 2 * Math.PI * this.Raggio;
 
     }
 }
