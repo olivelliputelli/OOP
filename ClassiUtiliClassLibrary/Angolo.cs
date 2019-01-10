@@ -49,6 +49,5 @@ namespace ClassiUtiliClassLibrary
 
         public override string ToString()
             => $"{Gradi}° {Primi}' {Secondi}\"";
-   
     }
 }
