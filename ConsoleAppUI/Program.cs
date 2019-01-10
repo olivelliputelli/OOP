@@ -1,5 +1,5 @@
-﻿using System;
-using ClassiUtiliClassLibrary;
+﻿using ClassiUtiliClassLibrary;
+using System;
 
 namespace ConsoleAppUI
 {
@@ -7,10 +7,18 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            var a = new AngoloB(350, 80, 90);
-     
+            var p = new Persona("Pippo");
 
-            Console.WriteLine($"{a.ToString()}");
+            var p1 = new Persona
+            {
+                Nome = "Pluto",
+                Sesso = Genere.M,
+                Eta = 12,
+                Professione = "Impiegato"
+            };
+
+
+            Console.WriteLine($"{p.ChiSei()}");
         }
     }
 }
