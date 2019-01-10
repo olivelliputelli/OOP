@@ -7,10 +7,8 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            var a = new Angolo(350, 40, 0);
-
-            a.AggiungiGradi(45);
-            a.AggiungiSecondi(100);
+            var a = new AngoloB(350, 80, 90);
+     
 
             Console.WriteLine($"{a.ToString()}");
         }

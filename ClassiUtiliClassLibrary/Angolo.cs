@@ -2,16 +2,16 @@
 
 namespace ClassiUtiliClassLibrary
 {
+    /// <summary>
+    /// Classe Angolo con lambda expression.
+    /// </summary>
     public class Angolo
     {
         private int angoloInSecondi;
         public int AngoloInSecondi
         {
             get => angoloInSecondi;
-            set
-            {
-                angoloInSecondi = value % (360 * 60 * 60);
-            }
+            set => angoloInSecondi = value % (360 * 60 * 60);       
         }
 
         public int Gradi => ((AngoloInSecondi / (60 * 60)));
@@ -19,6 +19,8 @@ namespace ClassiUtiliClassLibrary
         public int Primi => (AngoloInSecondi - Gradi * 3600) / 60;
 
         public int Secondi => (AngoloInSecondi - Gradi * 3600 - Primi * 60);
+
+        public Angolo() {   }
 
         public Angolo(int g, int p, int s)
         {
@@ -29,23 +31,24 @@ namespace ClassiUtiliClassLibrary
         }
 
         public void AggiungiGradi(int gradi)
-            => this.AngoloInSecondi += (gradi * 60 * 60);
+            => AngoloInSecondi += (gradi * 60 * 60);
 
         public void AggiungiPrimi(int primi)
-            => this.AngoloInSecondi += (primi * 60);
+            => AngoloInSecondi += (primi * 60);
 
         public void AggiungiSecondi(int secondi)
-            => this.AngoloInSecondi += secondi;
+            => AngoloInSecondi += secondi;
 
-        public int Somma(Angolo a)
-            => this.AngoloInSecondi + a.AngoloInSecondi;
+        public Angolo Somma(Angolo a) => new Angolo
+        {
+            AngoloInSecondi = AngoloInSecondi + a.AngoloInSecondi
+        };
 
         public int Differenza(Angolo a)
-            => this.AngoloInSecondi - a.AngoloInSecondi;
+            => AngoloInSecondi - a.AngoloInSecondi;
 
         public override string ToString()
-        {
-            return $"{this.Gradi}° {this.Primi}' {this.Secondi}\"";
-        }
+            => $"{Gradi}° {Primi}' {Secondi}\"";
+   
     }
 }
