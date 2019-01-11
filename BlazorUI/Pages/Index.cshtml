@@ -1,30 +1,58 @@
 ﻿@page "/"
 @using ClassiUtiliClassLibrary;
 
-<h1>Numeri Complessi</h1>
+<h1>Numero Z</h1>
 
+
+    <div class="form-row">
+        <div class="col">
+            <input type="text" bind="@zA" class="form-control" placeholder="Parte reale" />
+        </div>
+        <div class="col">
+            <input type="text" bind="@zB" class="form-control" placeholder="Parte immaginaria" />
+        </div>
+    </div>
+
+
+
+
+
+
+
+<h1>Numero w</h1>
+Parte reale: <input type="text" bind="@wA" />
 <br />
-B: <input type="text" bind="@b" />
+Parte immaginaria: <input type="text" bind="@wB" />
 
-<p>Current count: @z.ToString()</p>
+<p>@z  + @w = @s</p>
 
 <button class="btn btn-primary" onclick="@Mostra">Mostra</button>
 
 @functions {
 
-NumeroComplesso z;
+NumeroComplesso z, w, s;
 
-double a = 0;
-double b = 0;
+double zA = 0;
+double zB = 0;
+
+double wA = 0;
+double wB = 0;
 
 protected override void OnInit()
 {
     z = new NumeroComplesso();
+    w = new NumeroComplesso();
+    s = z.Somma(w);
 }
 
 void Mostra()
 {
-    z.A = a;
-    z.B = b;
+    z.A = zA;
+    z.B = zB;
+
+    w.A = wA;
+    w.B = wB;
+
+    s = z.Somma(w);
 }
 }

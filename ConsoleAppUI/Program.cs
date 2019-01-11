@@ -7,18 +7,20 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            var p = new Persona("Pippo");
+            NumeroComplesso z;
 
-            var p1 = new Persona
-            {
-                Nome = "Pluto",
-                Sesso = Genere.M,
-                Eta = 12,
-                Professione = "Impiegato"
-            };
+            double a =0;
+            double b =0;
 
+            Console.Write("Parte reale: ");
+            a = double.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{p.ChiSei()}");
+            Console.Write("Parte immaginaria: ");
+            b = double.Parse(Console.ReadLine());
+
+            z = new NumeroComplesso(a, b);
+
+            Console.WriteLine($"{z.ToString()}");
         }
     }
 }
