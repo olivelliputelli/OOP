@@ -2,13 +2,15 @@
 
 namespace ClassiUtiliClassLibrary
 {
-    class NumeroComplesso
+    public class NumeroComplesso
     {
         // parte reale
         public double A { get; set; } = 0;
 
         // parte immaginaria
         public double B { get; set; } = 0;
+
+        public NumeroComplesso():this(0,0){ }
 
         public NumeroComplesso(double a, double b)
         {

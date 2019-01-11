@@ -1,0 +1,30 @@
+﻿@page "/"
+@using ClassiUtiliClassLibrary;
+
+<h1>Numeri Complessi</h1>
+
+<br />
+B: <input type="text" bind="@b" />
+
+<p>Current count: @z.ToString()</p>
+
+<button class="btn btn-primary" onclick="@Mostra">Mostra</button>
+
+@functions {
+
+NumeroComplesso z;
+
+double a = 0;
+double b = 0;
+
+protected override void OnInit()
+{
+    z = new NumeroComplesso();
+}
+
+void Mostra()
+{
+    z.A = a;
+    z.B = b;
+}
+}
