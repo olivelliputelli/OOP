@@ -19,7 +19,7 @@ namespace ClassiUtiliClassLibrary
 
         public override string ToString()
         {
-            return $"{this.P} -> {this.Q}";
+            return $"{this.P} --> {this.Q}";
         }
 
         public double Lunghezza()

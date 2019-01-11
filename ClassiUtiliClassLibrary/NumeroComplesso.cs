@@ -10,12 +10,12 @@ namespace ClassiUtiliClassLibrary
         // parte immaginaria
         public double B { get; set; } = 0;
 
-        public NumeroComplesso():this(0,0){ }
+        public NumeroComplesso() : this(0, 0) { }
 
         public NumeroComplesso(double a, double b)
         {
-            A = a;
-            B = b;
+            this.A = a;
+            this.B = b;
         }
 
         public NumeroComplesso Somma(NumeroComplesso c)
@@ -37,7 +37,18 @@ namespace ClassiUtiliClassLibrary
         {
             if (this.B == 0)
                 return $"{this.A}";
-            return  $"{this.A} {((this.B > 0) ? " + ":" - ")} {Math.Abs(this.B)} j" ;
+            return $"{this.A} {((this.B > 0) ? " + " : " - ")} {Math.Abs(this.B)} j";
+        }
+
+        public override bool Equals(object obj)
+        {
+            NumeroComplesso z = obj as NumeroComplesso;
+            return (this.A == z.A) && (this.B == z.B);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
     }
 }
