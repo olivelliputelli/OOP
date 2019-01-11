@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ClassiUtiliClassLibrary
 {
@@ -33,5 +31,11 @@ namespace ClassiUtiliClassLibrary
             return new NumeroComplesso(this.A, -this.B);
         }
 
+        public override string ToString()
+        {
+            if (this.B == 0)
+                return $"{this.A}";
+            return  $"{this.A} {((this.B > 0) ? " + ":" - ")} {Math.Abs(this.B)} j" ;
+        }
     }
 }
