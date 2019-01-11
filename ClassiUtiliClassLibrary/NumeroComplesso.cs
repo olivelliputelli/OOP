@@ -18,7 +18,6 @@ namespace ClassiUtiliClassLibrary
             B = b;
         }
 
-
         public NumeroComplesso Somma(NumeroComplesso c)
         {
             return new NumeroComplesso(this.A + c.A, this.B + c.B);
