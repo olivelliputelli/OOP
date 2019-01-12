@@ -6,17 +6,12 @@
 
     <div class="form-row">
         <div class="col">
-            <input type="text" bind="@zA" class="form-control" placeholder="Parte reale" />
+            <input type="text" bind="@z.A" class="form-control" placeholder="Parte reale" />
         </div>
         <div class="col">
             <input type="text" bind="@zB" class="form-control" placeholder="Parte immaginaria" />
         </div>
     </div>
-
-
-
-
-
 
 
 <h1>Numero w</h1>
@@ -30,29 +25,30 @@ Parte immaginaria: <input type="text" bind="@wB" />
 
 @functions {
 
-NumeroComplesso z, w, s;
+    NumeroComplesso z, w, s;
 
-double zA = 0;
-double zB = 0;
+    public double ZA { get; set; } = 0;
 
-double wA = 0;
-double wB = 0;
+    double zB = 0;
 
-protected override void OnInit()
-{
-    z = new NumeroComplesso();
-    w = new NumeroComplesso();
-    s = z.Somma(w);
-}
+    double wA = 0;
+    double wB = 0;
 
-void Mostra()
-{
-    z.A = zA;
-    z.B = zB;
+    protected override void OnInit()
+    {
+        z = new NumeroComplesso();
+        w = new NumeroComplesso();
+        s = z.Somma(w);
+    }
 
-    w.A = wA;
-    w.B = wB;
+    void Mostra()
+    {
+        z.A = ZA;
+        z.B = zB;
 
-    s = z.Somma(w);
-}
+        w.A = wA;
+        w.B = wB;
+
+        s = z.Somma(w);
+    }
 }

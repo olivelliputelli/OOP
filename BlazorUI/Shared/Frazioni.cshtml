@@ -1,0 +1,28 @@
+﻿@using ClassiUtiliClassLibrary;
+
+<h1>Frazioni</h1>
+<div class="form-row">
+    <div class="col">
+        <input type="text" bind="@N" class="form-control" placeholder="Numeratore" />
+    </div>
+    <div class="col">
+        <input type="text" bind="@D" class="form-control" placeholder="Denominatore" />
+    </div>
+</div>
+
+<button class="btn btn-primary" onclick="@Mostra">Mostra</button>
+
+<p>Current count: @F.ToString()</p>
+
+
+@functions {
+    public Frazione F { get; set; } = new Frazione();
+
+    public int N { get; set; } = 0;
+    public int D { get; set; } = 1;
+
+    void Mostra()
+    {
+        F = new Frazione(N, D);
+    }
+}
