@@ -9,3 +9,8 @@
 
 
 OOP in **C#**
+
+Ciao *Frase in corsivo* sdfds.
+Io sono in \**Grassetto e anche io**
+
+> doppie virgolette
