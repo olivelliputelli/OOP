@@ -9,14 +9,26 @@ namespace ClassiUtiliClassLibrary
     {
         private int angoloInSecondi;
 
+        /// <summary>
+        /// bgn h
+        /// </summary>
         public AngoloB(){  }
 
+        /// <summary>
+        /// dfbfd
+        /// </summary>
         public int AngoloInSecondi
         {
             get { return angoloInSecondi; }
             set { angoloInSecondi = value % (360 * 60 * 60); }
         }
 
+        /// <summary>
+        /// bfdbdf h
+        /// </summary>
+        /// <param name="g">dfgfd</param>
+        /// <param name="p">dgdf</param>
+        /// <param name="s">fdgfd</param>
         public AngoloB(int g, int p, int s)
         {
             if (g < 0 || p < 0 || s < 0)
@@ -60,11 +72,21 @@ namespace ClassiUtiliClassLibrary
             AngoloInSecondi += secondi;
         }
 
+        /// <summary>
+        /// eytry
+        /// </summary>
+        /// <param name="a">rey</param>
+        /// <returns>eryrt</returns>
         public int Differenza(AngoloB a)
         {
             return this.AngoloInSecondi - a.AngoloInSecondi;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="a"></param>
+        /// <returns></returns>
         public AngoloB Somma(AngoloB a)
         {
             return new AngoloB

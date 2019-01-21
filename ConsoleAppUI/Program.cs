@@ -7,6 +7,10 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
+
+            
+            
+
             NumeroComplesso z;
 
             double a =0;

@@ -4,8 +4,8 @@ namespace ClassiUtiliClassLibrary
 {
     public class Frazione
     {
-        public int Numeratore { get; }
-        public int Denominatore { get; }
+        public int Numeratore { get; private set; }
+        public int Denominatore { get; private set; }
 
         public Frazione() : this(0, 1) { }
 
@@ -28,6 +28,37 @@ namespace ClassiUtiliClassLibrary
         {
             // Da fare
             return 1;
+        }
+
+        public Frazione Somma(Frazione f)
+        {
+            int den = mcm(this.Denominatore, f.Denominatore);
+            int num = (den / this.Denominatore * this.Numeratore) + (den / f.Denominatore * f.Numeratore);
+            return new Frazione(num, den);
+        }
+
+        public static Frazione operator +(Frazione f1, Frazione f2)
+        {
+            return f1.Somma(f2);
+        }
+
+        // overload operator +
+        //public static Frazione operator +(Frazione a, Frazione b)
+        //{
+        //    return new Frazione(a.Numeratore * b.Denominatore + b.Numeratore * a.Denominatore,
+        //       a.Denominatore * b.Denominatore);
+        //}
+
+        public Frazione Moltiplica(Frazione f)
+        {
+            int den = this.Denominatore * f.Denominatore;
+            int num = this.Numeratore * f.Numeratore;
+            return new Frazione(num, den);
+        }
+
+        public static Frazione operator *(Frazione f1, Frazione f2)
+        {
+            return f1.Moltiplica(f2);
         }
 
         public override string ToString()

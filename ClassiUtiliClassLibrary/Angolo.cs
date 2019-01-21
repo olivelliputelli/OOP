@@ -11,7 +11,7 @@ namespace ClassiUtiliClassLibrary
         public int AngoloInSecondi
         {
             get => angoloInSecondi;
-            set => angoloInSecondi = value % (360 * 60 * 60);       
+            set => angoloInSecondi = value % (360 * 60 * 60);
         }
 
         public int Gradi => ((AngoloInSecondi / (60 * 60)));
@@ -20,7 +20,7 @@ namespace ClassiUtiliClassLibrary
 
         public int Secondi => (AngoloInSecondi - Gradi * 3600 - Primi * 60);
 
-        public Angolo() {   }
+        public Angolo() { }
 
         public Angolo(int g, int p, int s)
         {
@@ -46,6 +46,16 @@ namespace ClassiUtiliClassLibrary
 
         public int Differenza(Angolo a)
             => AngoloInSecondi - a.AngoloInSecondi;
+
+        public static bool operator <(Angolo a1, Angolo a2)
+        {
+            return true;
+        }
+
+        public static bool operator >(Angolo a1, Angolo a2)
+        {
+            return !(a1 < a2);
+        }
 
         public override string ToString()
             => $"{Gradi}° {Primi}' {Secondi}\"";

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassiUtiliClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ClassiUtiliClassLibrary.Angolo">
+            <summary>
+            Classe Angolo con lambda expression.
+            </summary>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.AngoloB">
+            <summary>
+            Classe Angolo con notazione classica.
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.AngoloB.#ctor">
+            <summary>
+            bgn h
+            </summary>
+        </member>
+        <member name="P:ClassiUtiliClassLibrary.AngoloB.AngoloInSecondi">
+            <summary>
+            dfbfd
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.AngoloB.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            bfdbdf h
+            </summary>
+            <param name="g">dfgfd</param>
+            <param name="p">dgdf</param>
+            <param name="s">fdgfd</param>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.AngoloB.Differenza(ClassiUtiliClassLibrary.AngoloB)">
+            <summary>
+            eytry
+            </summary>
+            <param name="a">rey</param>
+            <returns>eryrt</returns>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.AngoloB.Somma(ClassiUtiliClassLibrary.AngoloB)">
+            <summary>
+            
+            </summary>
+            <param name="a"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.Cerchio">
+            <summary>
+            Classe Cerchio 
+            </summary>
+        </member>
+        <member name="P:ClassiUtiliClassLibrary.Cerchio.Raggio">
+            <summary>
+            Proprietà Raggio
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.Area">
+            <summary>
+            Area del cerchio
+            </summary>
+            <returns>area del cerchio</returns>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.Circonferenza">
+            <summary>
+            Circonferenza del cerchio
+            </summary>
+            <returns>circonferenza del cerchio</returns>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.Equals(System.Object)">
+            <summary>
+            Confronta il cerchio con un altro cerchio
+            </summary>
+            <param name="obj">Cerchio da confrontare</param>
+            <returns>true se i cerchi sono uguali.</returns>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.EqIIGrado">
+            <summary>
+            Equazioni della forma aX^2+bX+c=0
+            </summary>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="P:ClassiUtiliClassLibrary.EqIIGrado.A">
+            <summary>
+            Parametro della X^2
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.EqIIGrado.#ctor">
+            <summary>
+            Costruttore vuoto
+            </summary>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.Veicolo">
+            <summary>
+            Classe Veicolo.
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Veicolo.ConfrontaAnno(ClassiUtiliClassLibrary.Veicolo)">
+            <summary>
+            Confronta il veicolo con un altro veicolo.
+            </summary>
+            <param name="ve">Veicolo da confrontare</param>
+            <returns>Numero anni di differenza</returns>
+        </member>
+    </members>
+</doc>
