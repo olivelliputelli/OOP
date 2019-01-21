@@ -1,0 +1,296 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/DavidePrimino/source/repos/ClassiUtiliClassLibrary/ClassiUtiliClassLibrary",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Angolo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Angolo.html",
+          "hash": "oeD40jCE3eEKDEiymU09RA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.AngoloB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.AngoloB.html",
+          "hash": "yXHMlpHN8Z+QjM9y87d4Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Cerchio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Cerchio.html",
+          "hash": "qQKU+FDYl6tPEtah8Wq5UQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.EqIIGrado.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.EqIIGrado.html",
+          "hash": "wOmcX3pcAbdK0HGj1PsAzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Frazione.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Frazione.html",
+          "hash": "jQQEkExdWXJEIAWumIDovA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Genere.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Genere.html",
+          "hash": "yQx4+bXhRoxjrNmK/mwO5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.NumeroComplesso.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.NumeroComplesso.html",
+          "hash": "aVQgXfk06Y0c1hjVHOxWpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Persona.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Persona.html",
+          "hash": "Phxmg6NgV/pnox3Md6f2EA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.ProgrammaPC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.ProgrammaPC.html",
+          "hash": "j2v2PxONmXtW6KmRClc7nw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Punto2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Punto2D.html",
+          "hash": "VAZEuJ4CxU+wqtS5mx1kaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.SistemaOperativo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.SistemaOperativo.html",
+          "hash": "K0aI1aKteyhU9ooAg5ClNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Timer.html",
+          "hash": "JOuhPjkFks6jwofvI/QpVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Veicolo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Veicolo.html",
+          "hash": "jZnWNZEfrq/bisTBGBcs0Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Vettore2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Vettore2D.html",
+          "hash": "hdaXPCXH2cPGUO4Fp68g7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.html",
+          "hash": "rnaoA74qMnSubz1GokoIfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "S5ccpOrFrks2rfK87YEyLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "a8Db/W+TWM3PI2kt+XFX7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "MrUAFntDUhlARYawAkS2Jg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "QWOxPQVZ6trKFqHWb4b08A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
