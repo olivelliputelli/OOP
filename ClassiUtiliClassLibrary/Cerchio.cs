@@ -38,6 +38,10 @@ namespace ClassiUtiliClassLibrary
         public override bool Equals(object obj)
             => this.Raggio == (obj as Cerchio).Raggio;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public override int GetHashCode() => base.GetHashCode();
     }
 }
