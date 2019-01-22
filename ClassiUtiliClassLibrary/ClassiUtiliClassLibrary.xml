@@ -75,6 +75,12 @@
             <param name="obj">Cerchio da confrontare</param>
             <returns>true se i cerchi sono uguali.</returns>
         </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
         <member name="T:ClassiUtiliClassLibrary.EqIIGrado">
             <summary>
             Equazioni della forma aX^2+bX+c=0
