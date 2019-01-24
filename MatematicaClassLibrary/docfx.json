@@ -9,7 +9,9 @@
           "src": "C:\\Users\\DavidePrimino\\source\\repos\\ClassiUtiliClassLibrary\\MatematicaClassLibrary"
         }
       ],
-      "dest": "api"
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
     }
   ],
   "build": {
@@ -55,7 +57,9 @@
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
-    "dest": "_site",
-    "noLangKeyword": false
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
   }
 }
