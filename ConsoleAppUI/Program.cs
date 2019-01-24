@@ -1,4 +1,5 @@
 ﻿using ClassiUtiliClassLibrary;
+using MatematicaClassLibrary;
 using System;
 
 namespace ConsoleAppUI
@@ -7,24 +8,11 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-
+            Matematica.Somma(2, 5);
             
             
 
-            NumeroComplesso z;
-
-            double a =0;
-            double b =0;
-
-            Console.Write("Parte reale: ");
-            a = double.Parse(Console.ReadLine());
-
-            Console.Write("Parte immaginaria: ");
-            b = double.Parse(Console.ReadLine());
-
-            z = new NumeroComplesso(a, b);
-
-            Console.WriteLine($"{z.ToString()}");
+          
         }
     }
 }
