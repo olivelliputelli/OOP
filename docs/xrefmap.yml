@@ -1,0 +1,111 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: MatematicaClassLibrary
+  name: MatematicaClassLibrary
+  href: api/MatematicaClassLibrary.html
+  commentId: N:MatematicaClassLibrary
+  fullName: MatematicaClassLibrary
+  nameWithType: MatematicaClassLibrary
+- uid: MatematicaClassLibrary.Matematica
+  name: Matematica
+  href: api/MatematicaClassLibrary.Matematica.html
+  commentId: T:MatematicaClassLibrary.Matematica
+  fullName: MatematicaClassLibrary.Matematica
+  nameWithType: Matematica
+- uid: MatematicaClassLibrary.Matematica.Divisione(System.Double,System.Double)
+  name: Divisione(Double, Double)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Divisione_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Matematica.Divisione(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Matematica.Divisione(System.Double, System.Double)
+  nameWithType: Matematica.Divisione(Double, Double)
+- uid: MatematicaClassLibrary.Matematica.Divisione(System.Int32,System.Int32)
+  name: Divisione(Int32, Int32)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Divisione_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Matematica.Divisione(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Matematica.Divisione(System.Int32, System.Int32)
+  nameWithType: Matematica.Divisione(Int32, Int32)
+- uid: MatematicaClassLibrary.Matematica.Divisione*
+  name: Divisione
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Divisione_
+  commentId: Overload:MatematicaClassLibrary.Matematica.Divisione
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.Divisione
+  nameWithType: Matematica.Divisione
+- uid: MatematicaClassLibrary.Matematica.Moltipicazione(System.Int32,System.Int32)
+  name: Moltipicazione(Int32, Int32)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Moltipicazione_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Matematica.Moltipicazione(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Matematica.Moltipicazione(System.Int32, System.Int32)
+  nameWithType: Matematica.Moltipicazione(Int32, Int32)
+- uid: MatematicaClassLibrary.Matematica.Moltipicazione*
+  name: Moltipicazione
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Moltipicazione_
+  commentId: Overload:MatematicaClassLibrary.Matematica.Moltipicazione
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.Moltipicazione
+  nameWithType: Matematica.Moltipicazione
+- uid: MatematicaClassLibrary.Matematica.Moltiplicazione(System.Double,System.Double)
+  name: Moltiplicazione(Double, Double)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Moltiplicazione_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Matematica.Moltiplicazione(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Matematica.Moltiplicazione(System.Double, System.Double)
+  nameWithType: Matematica.Moltiplicazione(Double, Double)
+- uid: MatematicaClassLibrary.Matematica.Moltiplicazione*
+  name: Moltiplicazione
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Moltiplicazione_
+  commentId: Overload:MatematicaClassLibrary.Matematica.Moltiplicazione
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.Moltiplicazione
+  nameWithType: Matematica.Moltiplicazione
+- uid: MatematicaClassLibrary.Matematica.PI_GRECO
+  name: PI_GRECO
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_PI_GRECO
+  commentId: P:MatematicaClassLibrary.Matematica.PI_GRECO
+  fullName: MatematicaClassLibrary.Matematica.PI_GRECO
+  nameWithType: Matematica.PI_GRECO
+- uid: MatematicaClassLibrary.Matematica.PI_GRECO*
+  name: PI_GRECO
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_PI_GRECO_
+  commentId: Overload:MatematicaClassLibrary.Matematica.PI_GRECO
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.PI_GRECO
+  nameWithType: Matematica.PI_GRECO
+- uid: MatematicaClassLibrary.Matematica.Somma(System.Double,System.Double)
+  name: Somma(Double, Double)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Somma_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Matematica.Somma(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Matematica.Somma(System.Double, System.Double)
+  nameWithType: Matematica.Somma(Double, Double)
+- uid: MatematicaClassLibrary.Matematica.Somma(System.Int32,System.Int32)
+  name: Somma(Int32, Int32)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Somma_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Matematica.Somma(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Matematica.Somma(System.Int32, System.Int32)
+  nameWithType: Matematica.Somma(Int32, Int32)
+- uid: MatematicaClassLibrary.Matematica.Somma*
+  name: Somma
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Somma_
+  commentId: Overload:MatematicaClassLibrary.Matematica.Somma
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.Somma
+  nameWithType: Matematica.Somma
+- uid: MatematicaClassLibrary.Matematica.Sottrazione(System.Double,System.Double)
+  name: Sottrazione(Double, Double)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Sottrazione_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Matematica.Sottrazione(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Matematica.Sottrazione(System.Double, System.Double)
+  nameWithType: Matematica.Sottrazione(Double, Double)
+- uid: MatematicaClassLibrary.Matematica.Sottrazione(System.Int32,System.Int32)
+  name: Sottrazione(Int32, Int32)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Sottrazione_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Matematica.Sottrazione(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Matematica.Sottrazione(System.Int32, System.Int32)
+  nameWithType: Matematica.Sottrazione(Int32, Int32)
+- uid: MatematicaClassLibrary.Matematica.Sottrazione*
+  name: Sottrazione
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Sottrazione_
+  commentId: Overload:MatematicaClassLibrary.Matematica.Sottrazione
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.Sottrazione
+  nameWithType: Matematica.Sottrazione
