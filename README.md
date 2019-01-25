@@ -3,7 +3,7 @@
 
 ###### Titolo 6
 
-[Collegamento](https://www.google.it/)
+[Documentazione](https://olivelliputelli.github.io/OOP/)
 
 # OOP 
 
