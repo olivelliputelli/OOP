@@ -9,10 +9,22 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.Matematica.html",
-          "hash": "5xlULAOWyTsKjUbcMZ3vgw=="
+          "hash": "GWprsa0Ip4+ktnXBsHd/yg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MatematicaClassLibrary.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MatematicaClassLibrary.Math.html",
+          "hash": "xvM0G5kJA4NiHPAX+2seRg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.html",
-          "hash": "jad7Y6KoIp2AX5LtK0kUog=="
+          "hash": "w+vcc+mSlTT8jGa1qhjoew=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +48,7 @@
           "hash": "8oMPvBODyvBGBS9XH+n2rA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3a1Fep5Dnj24bS+dimsa2g=="
+          "hash": "RtqrKtYh230ekJHaOPGKrg=="
         }
       },
       "is_incremental": false,
@@ -60,7 +72,7 @@
           "hash": "qQqZWhHtHWTCvBpNc9vtlw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +96,7 @@
           "hash": "d0kjXPtyUSL7iVZ24odqOg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -103,29 +115,30 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Disable incremental build by force rebuild option.",
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

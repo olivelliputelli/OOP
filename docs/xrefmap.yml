@@ -32,6 +32,22 @@ references:
   isSpec: "True"
   fullName: MatematicaClassLibrary.Matematica.Divisione
   nameWithType: Matematica.Divisione
+- uid: MatematicaClassLibrary.Matematica.GreaterThan*
+  name: GreaterThan
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_GreaterThan_
+  commentId: Overload:MatematicaClassLibrary.Matematica.GreaterThan
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Matematica.GreaterThan
+  nameWithType: Matematica.GreaterThan
+- uid: MatematicaClassLibrary.Matematica.GreaterThan``1(``0,``0)
+  name: GreaterThan<T>(T, T)
+  href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_GreaterThan__1___0___0_
+  commentId: M:MatematicaClassLibrary.Matematica.GreaterThan``1(``0,``0)
+  name.vb: GreaterThan(Of T)(T, T)
+  fullName: MatematicaClassLibrary.Matematica.GreaterThan<T>(T, T)
+  fullName.vb: MatematicaClassLibrary.Matematica.GreaterThan(Of T)(T, T)
+  nameWithType: Matematica.GreaterThan<T>(T, T)
+  nameWithType.vb: Matematica.GreaterThan(Of T)(T, T)
 - uid: MatematicaClassLibrary.Matematica.Moltipicazione(System.Int32,System.Int32)
   name: Moltipicazione(Int32, Int32)
   href: api/MatematicaClassLibrary.Matematica.html#MatematicaClassLibrary_Matematica_Moltipicazione_System_Int32_System_Int32_
@@ -109,3 +125,85 @@ references:
   isSpec: "True"
   fullName: MatematicaClassLibrary.Matematica.Sottrazione
   nameWithType: Matematica.Sottrazione
+- uid: MatematicaClassLibrary.Math
+  name: Math
+  href: api/MatematicaClassLibrary.Math.html
+  commentId: T:MatematicaClassLibrary.Math
+  fullName: MatematicaClassLibrary.Math
+  nameWithType: Math
+- uid: MatematicaClassLibrary.Math.Add(System.Double,System.Double)
+  name: Add(Double, Double)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Math.Add(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Math.Add(System.Double, System.Double)
+  nameWithType: Math.Add(Double, Double)
+- uid: MatematicaClassLibrary.Math.Add(System.Int32,System.Int32)
+  name: Add(Int32, Int32)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Math.Add(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Math.Add(System.Int32, System.Int32)
+  nameWithType: Math.Add(Int32, Int32)
+- uid: MatematicaClassLibrary.Math.Add*
+  name: Add
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_
+  commentId: Overload:MatematicaClassLibrary.Math.Add
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Math.Add
+  nameWithType: Math.Add
+- uid: MatematicaClassLibrary.Math.Divide(System.Double,System.Double)
+  name: Divide(Double, Double)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Math.Divide(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Math.Divide(System.Double, System.Double)
+  nameWithType: Math.Divide(Double, Double)
+- uid: MatematicaClassLibrary.Math.Divide(System.Int32,System.Int32)
+  name: Divide(Int32, Int32)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Math.Divide(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Math.Divide(System.Int32, System.Int32)
+  nameWithType: Math.Divide(Int32, Int32)
+- uid: MatematicaClassLibrary.Math.Divide*
+  name: Divide
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_
+  commentId: Overload:MatematicaClassLibrary.Math.Divide
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Math.Divide
+  nameWithType: Math.Divide
+- uid: MatematicaClassLibrary.Math.Multiply(System.Double,System.Double)
+  name: Multiply(Double, Double)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Math.Multiply(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Math.Multiply(System.Double, System.Double)
+  nameWithType: Math.Multiply(Double, Double)
+- uid: MatematicaClassLibrary.Math.Multiply(System.Int32,System.Int32)
+  name: Multiply(Int32, Int32)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Math.Multiply(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Math.Multiply(System.Int32, System.Int32)
+  nameWithType: Math.Multiply(Int32, Int32)
+- uid: MatematicaClassLibrary.Math.Multiply*
+  name: Multiply
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_
+  commentId: Overload:MatematicaClassLibrary.Math.Multiply
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Math.Multiply
+  nameWithType: Math.Multiply
+- uid: MatematicaClassLibrary.Math.Subtract(System.Double,System.Double)
+  name: Subtract(Double, Double)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_System_Double_System_Double_
+  commentId: M:MatematicaClassLibrary.Math.Subtract(System.Double,System.Double)
+  fullName: MatematicaClassLibrary.Math.Subtract(System.Double, System.Double)
+  nameWithType: Math.Subtract(Double, Double)
+- uid: MatematicaClassLibrary.Math.Subtract(System.Int32,System.Int32)
+  name: Subtract(Int32, Int32)
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_System_Int32_System_Int32_
+  commentId: M:MatematicaClassLibrary.Math.Subtract(System.Int32,System.Int32)
+  fullName: MatematicaClassLibrary.Math.Subtract(System.Int32, System.Int32)
+  nameWithType: Math.Subtract(Int32, Int32)
+- uid: MatematicaClassLibrary.Math.Subtract*
+  name: Subtract
+  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_
+  commentId: Overload:MatematicaClassLibrary.Math.Subtract
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Math.Subtract
+  nameWithType: Math.Subtract
