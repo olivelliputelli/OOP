@@ -1,12 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MatematicaClassLibrary
 {
     /// <summary>
-    /// La principale <c>Matematica</c> classe.
-    /// Contiene metodi statici per eseguire funzioni matematiche.
+    /// The main <c>Math</c> class.
+    /// Contains all methods for performing basic math functions.
+    /// <list type="table">
+    /// <item>
+    /// <term>Add</term>
+    /// <description>Addition Operation</description>
+    /// </item>
+    /// <item>
+    /// <term>Subtract</term>
+    /// <description>Subtraction Operation</description>
+    /// </item>
+    /// <item>
+    /// <term>Multiply</term>
+    /// <description>Multiplication Operation</description>
+    /// </item>
+    /// <item>
+    /// <term>Divide</term>
+    /// <description>Division Operation</description>
+    /// </item>
+    /// </list>
     /// </summary>
     /// <remarks>
     /// <para>This class can add, subtract, multiply and divide.</para>
@@ -14,7 +30,6 @@ namespace MatematicaClassLibrary
     /// </remarks>
     public class Matematica
     {
-
         /// <value>Ottiene il valore di Pi Greco.</value>
         public static double PI_GRECO { get; } = 3.141549;
 
@@ -35,14 +50,27 @@ namespace MatematicaClassLibrary
         /// </example>
         /// <exception cref="OverflowException">Thrown when one parameter is max 
         /// and the other is greater than 0.</exception>
+        /// See <see cref="Matematica.Somma(double, double)"/> to add doubles.
+        /// <seealso cref="Matematica.Sottrazione(int, int)"/>
+        /// <seealso cref="Matematica.Moltipicazione(int, int)"/>
+        /// <seealso cref="Matematica.Divisione(int, int)"/>
         public static int Somma(int a, int b)
         {
             if ((a == int.MaxValue && b > 0) || (b == int.MaxValue && a > 0))
                 throw new OverflowException();
-                      
+                
             return a + b;
         }
 
+        /// <summary>
+        /// Adds two doubles <paramref name="a"/> and <paramref name="b"/> and returns the result.
+        /// </summary>
+        /// <returns>
+        /// The sum of two doubles.
+        /// </returns>
+        /// <exception cref="System.OverflowException">Thrown when one parameter is max 
+        /// and the other is greater than zero.</exception>
+        /// See <see cref="Matematica.Somma(int, int)"/> to add integers.
         public static double Somma(double a, double b)
         {
             if ((a == double.MaxValue && b > 0) || (b == double.MaxValue && a > 0))
@@ -83,11 +111,28 @@ namespace MatematicaClassLibrary
             return a / b;
         }
 
+        /// <summary>
+        /// Divides an double by another and returns the result.
+        /// </summary>
+        /// <returns>
+        /// The division of two double.
+        /// </returns>
+        /// <exception cref="System.DivideByZeroException">Thrown when a division by zero occurs.</exception>
+
         public static double Divisione(double a, double b)
         {
             return a / b;
         }
 
+
+        /// <summary>
+        /// Checks if an IComparable is greater than another.
+        /// </summary>
+        /// <typeparam name="T">A type that inherits from the IComparable interface.</typeparam>
+        public static bool GreaterThan<T>(T a, T b) where T : IComparable
+        {
+            return a.CompareTo(b) > 0;
+        }
 
     }
 }
