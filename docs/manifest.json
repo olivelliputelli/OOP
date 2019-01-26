@@ -5,6 +5,30 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MatematicaClassLibrary.Geometria2D.Cerchio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MatematicaClassLibrary.Geometria2D.Cerchio.html",
+          "hash": "FxiguXsg/vsl3jVd00mEjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MatematicaClassLibrary.Geometria2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MatematicaClassLibrary.Geometria2D.html",
+          "hash": "J21xxJFNdTgVSZoosjs9gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MatematicaClassLibrary.Matematica.yml",
       "output": {
         ".html": {
@@ -12,19 +36,7 @@
           "hash": "GWprsa0Ip4+ktnXBsHd/yg=="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MatematicaClassLibrary.Math.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MatematicaClassLibrary.Math.html",
-          "hash": "xvM0G5kJA4NiHPAX+2seRg=="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.html",
-          "hash": "w+vcc+mSlTT8jGa1qhjoew=="
+          "hash": "hSR8uFutuHynKuXQfqjfaA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +60,7 @@
           "hash": "8oMPvBODyvBGBS9XH+n2rA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "RtqrKtYh230ekJHaOPGKrg=="
+          "hash": "n3HI9GjkqTkeaIr5wILIoQ=="
         }
       },
       "is_incremental": false,
@@ -96,7 +108,7 @@
           "hash": "31plAU4+eckB23HMbWORlA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -119,17 +131,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }

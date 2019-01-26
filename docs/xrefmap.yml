@@ -7,6 +7,44 @@ references:
   commentId: N:MatematicaClassLibrary
   fullName: MatematicaClassLibrary
   nameWithType: MatematicaClassLibrary
+- uid: MatematicaClassLibrary.Geometria2D
+  name: MatematicaClassLibrary.Geometria2D
+  href: api/MatematicaClassLibrary.Geometria2D.html
+  commentId: N:MatematicaClassLibrary.Geometria2D
+  fullName: MatematicaClassLibrary.Geometria2D
+  nameWithType: MatematicaClassLibrary.Geometria2D
+- uid: MatematicaClassLibrary.Geometria2D.Cerchio
+  name: Cerchio
+  href: api/MatematicaClassLibrary.Geometria2D.Cerchio.html
+  commentId: T:MatematicaClassLibrary.Geometria2D.Cerchio
+  fullName: MatematicaClassLibrary.Geometria2D.Cerchio
+  nameWithType: Cerchio
+- uid: MatematicaClassLibrary.Geometria2D.Cerchio.Area
+  name: Area()
+  href: api/MatematicaClassLibrary.Geometria2D.Cerchio.html#MatematicaClassLibrary_Geometria2D_Cerchio_Area
+  commentId: M:MatematicaClassLibrary.Geometria2D.Cerchio.Area
+  fullName: MatematicaClassLibrary.Geometria2D.Cerchio.Area()
+  nameWithType: Cerchio.Area()
+- uid: MatematicaClassLibrary.Geometria2D.Cerchio.Area*
+  name: Area
+  href: api/MatematicaClassLibrary.Geometria2D.Cerchio.html#MatematicaClassLibrary_Geometria2D_Cerchio_Area_
+  commentId: Overload:MatematicaClassLibrary.Geometria2D.Cerchio.Area
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Geometria2D.Cerchio.Area
+  nameWithType: Cerchio.Area
+- uid: MatematicaClassLibrary.Geometria2D.Cerchio.Raggio
+  name: Raggio
+  href: api/MatematicaClassLibrary.Geometria2D.Cerchio.html#MatematicaClassLibrary_Geometria2D_Cerchio_Raggio
+  commentId: P:MatematicaClassLibrary.Geometria2D.Cerchio.Raggio
+  fullName: MatematicaClassLibrary.Geometria2D.Cerchio.Raggio
+  nameWithType: Cerchio.Raggio
+- uid: MatematicaClassLibrary.Geometria2D.Cerchio.Raggio*
+  name: Raggio
+  href: api/MatematicaClassLibrary.Geometria2D.Cerchio.html#MatematicaClassLibrary_Geometria2D_Cerchio_Raggio_
+  commentId: Overload:MatematicaClassLibrary.Geometria2D.Cerchio.Raggio
+  isSpec: "True"
+  fullName: MatematicaClassLibrary.Geometria2D.Cerchio.Raggio
+  nameWithType: Cerchio.Raggio
 - uid: MatematicaClassLibrary.Matematica
   name: Matematica
   href: api/MatematicaClassLibrary.Matematica.html
@@ -125,85 +163,3 @@ references:
   isSpec: "True"
   fullName: MatematicaClassLibrary.Matematica.Sottrazione
   nameWithType: Matematica.Sottrazione
-- uid: MatematicaClassLibrary.Math
-  name: Math
-  href: api/MatematicaClassLibrary.Math.html
-  commentId: T:MatematicaClassLibrary.Math
-  fullName: MatematicaClassLibrary.Math
-  nameWithType: Math
-- uid: MatematicaClassLibrary.Math.Add(System.Double,System.Double)
-  name: Add(Double, Double)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_System_Double_System_Double_
-  commentId: M:MatematicaClassLibrary.Math.Add(System.Double,System.Double)
-  fullName: MatematicaClassLibrary.Math.Add(System.Double, System.Double)
-  nameWithType: Math.Add(Double, Double)
-- uid: MatematicaClassLibrary.Math.Add(System.Int32,System.Int32)
-  name: Add(Int32, Int32)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_System_Int32_System_Int32_
-  commentId: M:MatematicaClassLibrary.Math.Add(System.Int32,System.Int32)
-  fullName: MatematicaClassLibrary.Math.Add(System.Int32, System.Int32)
-  nameWithType: Math.Add(Int32, Int32)
-- uid: MatematicaClassLibrary.Math.Add*
-  name: Add
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Add_
-  commentId: Overload:MatematicaClassLibrary.Math.Add
-  isSpec: "True"
-  fullName: MatematicaClassLibrary.Math.Add
-  nameWithType: Math.Add
-- uid: MatematicaClassLibrary.Math.Divide(System.Double,System.Double)
-  name: Divide(Double, Double)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_System_Double_System_Double_
-  commentId: M:MatematicaClassLibrary.Math.Divide(System.Double,System.Double)
-  fullName: MatematicaClassLibrary.Math.Divide(System.Double, System.Double)
-  nameWithType: Math.Divide(Double, Double)
-- uid: MatematicaClassLibrary.Math.Divide(System.Int32,System.Int32)
-  name: Divide(Int32, Int32)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_System_Int32_System_Int32_
-  commentId: M:MatematicaClassLibrary.Math.Divide(System.Int32,System.Int32)
-  fullName: MatematicaClassLibrary.Math.Divide(System.Int32, System.Int32)
-  nameWithType: Math.Divide(Int32, Int32)
-- uid: MatematicaClassLibrary.Math.Divide*
-  name: Divide
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Divide_
-  commentId: Overload:MatematicaClassLibrary.Math.Divide
-  isSpec: "True"
-  fullName: MatematicaClassLibrary.Math.Divide
-  nameWithType: Math.Divide
-- uid: MatematicaClassLibrary.Math.Multiply(System.Double,System.Double)
-  name: Multiply(Double, Double)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_System_Double_System_Double_
-  commentId: M:MatematicaClassLibrary.Math.Multiply(System.Double,System.Double)
-  fullName: MatematicaClassLibrary.Math.Multiply(System.Double, System.Double)
-  nameWithType: Math.Multiply(Double, Double)
-- uid: MatematicaClassLibrary.Math.Multiply(System.Int32,System.Int32)
-  name: Multiply(Int32, Int32)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_System_Int32_System_Int32_
-  commentId: M:MatematicaClassLibrary.Math.Multiply(System.Int32,System.Int32)
-  fullName: MatematicaClassLibrary.Math.Multiply(System.Int32, System.Int32)
-  nameWithType: Math.Multiply(Int32, Int32)
-- uid: MatematicaClassLibrary.Math.Multiply*
-  name: Multiply
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Multiply_
-  commentId: Overload:MatematicaClassLibrary.Math.Multiply
-  isSpec: "True"
-  fullName: MatematicaClassLibrary.Math.Multiply
-  nameWithType: Math.Multiply
-- uid: MatematicaClassLibrary.Math.Subtract(System.Double,System.Double)
-  name: Subtract(Double, Double)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_System_Double_System_Double_
-  commentId: M:MatematicaClassLibrary.Math.Subtract(System.Double,System.Double)
-  fullName: MatematicaClassLibrary.Math.Subtract(System.Double, System.Double)
-  nameWithType: Math.Subtract(Double, Double)
-- uid: MatematicaClassLibrary.Math.Subtract(System.Int32,System.Int32)
-  name: Subtract(Int32, Int32)
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_System_Int32_System_Int32_
-  commentId: M:MatematicaClassLibrary.Math.Subtract(System.Int32,System.Int32)
-  fullName: MatematicaClassLibrary.Math.Subtract(System.Int32, System.Int32)
-  nameWithType: Math.Subtract(Int32, Int32)
-- uid: MatematicaClassLibrary.Math.Subtract*
-  name: Subtract
-  href: api/MatematicaClassLibrary.Math.html#MatematicaClassLibrary_Math_Subtract_
-  commentId: Overload:MatematicaClassLibrary.Math.Subtract
-  isSpec: "True"
-  fullName: MatematicaClassLibrary.Math.Subtract
-  nameWithType: Math.Subtract
