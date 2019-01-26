@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatematicaClassLibrary", "M
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1471407A-791B-4371-96B3-1F71C2B6480D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{152A499B-4DA6-4966-9BCD-A389F2E85F88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometriaClassLibrary", "GeometriaClassLibrary\GeometriaClassLibrary.csproj", "{1E3E08E9-1533-420D-8198-115C492DD481}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +33,16 @@ Global
 		{313A3D7B-1735-42E9-9B05-2F44A7A54BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{313A3D7B-1735-42E9-9B05-2F44A7A54BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{313A3D7B-1735-42E9-9B05-2F44A7A54BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3E08E9-1533-420D-8198-115C492DD481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3E08E9-1533-420D-8198-115C492DD481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3E08E9-1533-420D-8198-115C492DD481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3E08E9-1533-420D-8198-115C492DD481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E3E08E9-1533-420D-8198-115C492DD481} = {152A499B-4DA6-4966-9BCD-A389F2E85F88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {177B5046-3DD2-43C5-9307-731674FC4092}

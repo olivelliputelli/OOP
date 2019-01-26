@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Angolo.html",
-          "hash": "oeD40jCE3eEKDEiymU09RA=="
+          "hash": "ZO3KrXKkfIYCetOOSLBWhQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.AngoloB.html",
-          "hash": "yXHMlpHN8Z+QjM9y87d4Tw=="
+          "hash": "ynHokZENuEXO0PmOYWJhoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Cerchio.html",
-          "hash": "quw3MdF09ygk7M2gvKlUbg=="
+          "hash": "nCHxHEVwgUwXerABWYnNjQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.EqIIGrado.html",
-          "hash": "wOmcX3pcAbdK0HGj1PsAzQ=="
+          "hash": "3cftxqUrFg15FX7XccSy6Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Frazione.html",
-          "hash": "jQQEkExdWXJEIAWumIDovA=="
+          "hash": "ZH9DH5Rh9O3Ndi0voNZBQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Genere.html",
-          "hash": "yQx4+bXhRoxjrNmK/mwO5Q=="
+          "hash": "FztOJzljBuNBD1A5jg0khQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.NumeroComplesso.html",
-          "hash": "aVQgXfk06Y0c1hjVHOxWpg=="
+          "hash": "d8I1GLjfQZblO4sVN/xcpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Persona.html",
-          "hash": "Phxmg6NgV/pnox3Md6f2EA=="
+          "hash": "0TE1pdddNViNIJl257U/xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.ProgrammaPC.html",
-          "hash": "j2v2PxONmXtW6KmRClc7nw=="
+          "hash": "NUCnhf3+SiFOvBRh1Qc3sA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Punto2D.html",
-          "hash": "VAZEuJ4CxU+wqtS5mx1kaQ=="
+          "hash": "3WH7+9MqeDyd3uhWozo2LQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.SistemaOperativo.html",
-          "hash": "K0aI1aKteyhU9ooAg5ClNQ=="
+          "hash": "W1MEGzCD85OLZVaWQIFg8w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Timer.html",
-          "hash": "JOuhPjkFks6jwofvI/QpVQ=="
+          "hash": "qcMSQorLfPzkWYfkd+EP6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Veicolo.html",
-          "hash": "jZnWNZEfrq/bisTBGBcs0Q=="
+          "hash": "AeElszDet1q2nLsU6iz6yQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Vettore2D.html",
-          "hash": "hdaXPCXH2cPGUO4Fp68g7Q=="
+          "hash": "6FD0cOhKoNmwOaaDFtRdig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.html",
-          "hash": "rnaoA74qMnSubz1GokoIfQ=="
+          "hash": "7AZu1Pxz/BfiNpkj/8P2Bw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "S5ccpOrFrks2rfK87YEyLg=="
+          "hash": "+L0g9hIT1Me/SwqQer6NXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "UmzNfk5DJuZzUIAqyLo75g=="
+          "hash": "eyx+QOkP4ZHIjKNbMdag7A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mxLhXt+WIYt6teF81aR5Gg=="
+          "hash": "lu5hfQPNtSv8sb1SGifpBg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -259,30 +259,41 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build"
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.40.7.0 to 2.40.8.0.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 0
         }
       }
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing"
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }
