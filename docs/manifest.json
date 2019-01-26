@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.Geometria2D.Cerchio.html",
-          "hash": "FxiguXsg/vsl3jVd00mEjw=="
+          "hash": "3MVmIJDDPUUv4GpNqhdWdw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.Geometria2D.html",
-          "hash": "J21xxJFNdTgVSZoosjs9gQ=="
+          "hash": "vzQrr2rr5kLrw/uTvfxhOQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.Matematica.html",
-          "hash": "GWprsa0Ip4+ktnXBsHd/yg=="
+          "hash": "6Str24OmbAgaNeGeEmB2cg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MatematicaClassLibrary.html",
-          "hash": "hSR8uFutuHynKuXQfqjfaA=="
+          "hash": "S0vp/5cwk1j2nrEKgUH6cw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "8oMPvBODyvBGBS9XH+n2rA=="
+          "hash": "+/VUMqvHVrR2XLUI54Adrg=="
         }
       },
       "is_incremental": false,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "qQqZWhHtHWTCvBpNc9vtlw=="
+          "hash": "OZDkt+4YSUvb/ysPiVmdUw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "31plAU4+eckB23HMbWORlA=="
+          "hash": "31RUsNw6mAGIFl45QwLkLA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+          "hash": "9aNmYqhh2M0/lBpalTBy9g=="
         }
       },
       "is_incremental": false,
@@ -127,22 +127,31 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
-        "incrementalPhase": "build"
+        "can_incremental": false,
+        "details": "Cannot build incrementally because docfx version changed from 2.40.7.0 to 2.40.8.0.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },
@@ -150,7 +159,9 @@
       "status": {
         "can_incremental": true,
         "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }

@@ -1,5 +1,7 @@
-- name: Articles
+- name: Articoli
   href: articles/
-- name: Api Documentation
+- name: Api Documentazione
   href: api/
+  name: Olivelli
+  href: https://www.olivelliputelli.it/
   homepage: api/index.md
