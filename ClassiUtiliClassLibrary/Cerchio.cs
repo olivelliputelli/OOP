@@ -5,30 +5,42 @@ namespace ClassiUtiliClassLibrary
     /// <summary>
     /// Classe Cerchio 
     /// </summary>
-    public class Cerchio
+    public class Cerchio : FiguraGeometrica2D
     {
-        private double raggio;
-
+        private double _raggio;
         /// <summary>
         /// Proprietà Raggio
         /// </summary>
         public double Raggio
         {
-            get => raggio;
-            set => raggio = (value >= 0) ? value : throw new IndexOutOfRangeException();
+            get => _raggio;
+            set => _raggio = (value >= 0) ? value : throw new ArgumentOutOfRangeException();
         }
+        /// <summary>
+        /// Costruttore.
+        /// </summary>
+        /// <param name="raggio">Il raggio</param>
+        public Cerchio(double raggio)
+        {
+            Raggio = raggio;
+        }
+
+        /// <summary>
+        /// Cerchio di raggio 0.
+        /// </summary>
+        public Cerchio() : this(0) { }
 
         /// <summary>
         /// Area del cerchio
         /// </summary>
         /// <returns>area del cerchio</returns>
-        public double Area() => Math.PI * Math.Pow(this.Raggio, 2);
+        public override double Area() => Math.PI * Math.Pow(this.Raggio, 2);
 
         /// <summary>
         /// Circonferenza del cerchio
         /// </summary>
         /// <returns>circonferenza del cerchio</returns>
-        public double Circonferenza() => 2 * Math.PI * this.Raggio;
+        public override double Perimetro() => 2 * Math.PI * this.Raggio;
 
         /// <summary>
         /// Confronta il cerchio con un altro cerchio
