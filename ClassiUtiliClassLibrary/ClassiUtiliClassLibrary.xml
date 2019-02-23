@@ -56,13 +56,24 @@
             Proprietà Raggio
             </summary>
         </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.#ctor(System.Double)">
+            <summary>
+            Costruttore.
+            </summary>
+            <param name="raggio">Il raggio</param>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.#ctor">
+            <summary>
+            Cerchio di raggio 0.
+            </summary>
+        </member>
         <member name="M:ClassiUtiliClassLibrary.Cerchio.Area">
             <summary>
             Area del cerchio
             </summary>
             <returns>area del cerchio</returns>
         </member>
-        <member name="M:ClassiUtiliClassLibrary.Cerchio.Circonferenza">
+        <member name="M:ClassiUtiliClassLibrary.Cerchio.Perimetro">
             <summary>
             Circonferenza del cerchio
             </summary>
@@ -97,6 +108,27 @@
             <summary>
             Costruttore vuoto
             </summary>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.FiguraGeometrica2D">
+            <summary>
+            Classe astratta che rappresenta tutte le figure geometriche della geometria piana.
+            </summary>
+        </member>
+        <member name="P:ClassiUtiliClassLibrary.Rettangolo.Base">
+            <summary>
+            Proprietà Base.
+            </summary>
+        </member>
+        <member name="P:ClassiUtiliClassLibrary.Rettangolo.Altezza">
+            <summary>
+            Proprietà Altezza.
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Rettangolo.#ctor(System.Double)">
+            <summary>
+            Costruttore che permette di costruire quadrati.
+            </summary>
+            <param name="lato">Lato del quadrato.</param>
         </member>
         <member name="T:ClassiUtiliClassLibrary.Veicolo">
             <summary>

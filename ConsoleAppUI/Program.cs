@@ -1,5 +1,5 @@
 ﻿using ClassiUtiliClassLibrary;
-using MatematicaClassLibrary;
+using System.Collections.Generic;
 using System;
 
 namespace ConsoleAppUI
@@ -8,11 +8,19 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            Matematica.Somma(2, 5);
-            
-            
+            var figure2D = new List<FiguraGeometrica2D>
+            {
+                new Cerchio(4),
+                new Rettangolo(5),
+                new Rettangolo(2,3),
+                new Cerchio(1)
+            };
 
-          
+            foreach (var f in figure2D)
+            {
+                Console.WriteLine($"{f.GetType()} - Area = {f.Area()} m^2");
+            }
+
         }
     }
 }

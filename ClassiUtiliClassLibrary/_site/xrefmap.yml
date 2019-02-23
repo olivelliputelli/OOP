@@ -355,6 +355,25 @@ references:
   commentId: T:ClassiUtiliClassLibrary.Cerchio
   fullName: ClassiUtiliClassLibrary.Cerchio
   nameWithType: Cerchio
+- uid: ClassiUtiliClassLibrary.Cerchio.#ctor
+  name: Cerchio()
+  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio__ctor
+  commentId: M:ClassiUtiliClassLibrary.Cerchio.#ctor
+  fullName: ClassiUtiliClassLibrary.Cerchio.Cerchio()
+  nameWithType: Cerchio.Cerchio()
+- uid: ClassiUtiliClassLibrary.Cerchio.#ctor(System.Double)
+  name: Cerchio(Double)
+  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio__ctor_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Cerchio.#ctor(System.Double)
+  fullName: ClassiUtiliClassLibrary.Cerchio.Cerchio(System.Double)
+  nameWithType: Cerchio.Cerchio(Double)
+- uid: ClassiUtiliClassLibrary.Cerchio.#ctor*
+  name: Cerchio
+  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio__ctor_
+  commentId: Overload:ClassiUtiliClassLibrary.Cerchio.#ctor
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cerchio.Cerchio
+  nameWithType: Cerchio.Cerchio
 - uid: ClassiUtiliClassLibrary.Cerchio.Area
   name: Area()
   href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Area
@@ -368,19 +387,6 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Cerchio.Area
   nameWithType: Cerchio.Area
-- uid: ClassiUtiliClassLibrary.Cerchio.Circonferenza
-  name: Circonferenza()
-  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Circonferenza
-  commentId: M:ClassiUtiliClassLibrary.Cerchio.Circonferenza
-  fullName: ClassiUtiliClassLibrary.Cerchio.Circonferenza()
-  nameWithType: Cerchio.Circonferenza()
-- uid: ClassiUtiliClassLibrary.Cerchio.Circonferenza*
-  name: Circonferenza
-  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Circonferenza_
-  commentId: Overload:ClassiUtiliClassLibrary.Cerchio.Circonferenza
-  isSpec: "True"
-  fullName: ClassiUtiliClassLibrary.Cerchio.Circonferenza
-  nameWithType: Cerchio.Circonferenza
 - uid: ClassiUtiliClassLibrary.Cerchio.Equals(System.Object)
   name: Equals(Object)
   href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Equals_System_Object_
@@ -407,6 +413,19 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Cerchio.GetHashCode
   nameWithType: Cerchio.GetHashCode
+- uid: ClassiUtiliClassLibrary.Cerchio.Perimetro
+  name: Perimetro()
+  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Perimetro
+  commentId: M:ClassiUtiliClassLibrary.Cerchio.Perimetro
+  fullName: ClassiUtiliClassLibrary.Cerchio.Perimetro()
+  nameWithType: Cerchio.Perimetro()
+- uid: ClassiUtiliClassLibrary.Cerchio.Perimetro*
+  name: Perimetro
+  href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Perimetro_
+  commentId: Overload:ClassiUtiliClassLibrary.Cerchio.Perimetro
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cerchio.Perimetro
+  nameWithType: Cerchio.Perimetro
 - uid: ClassiUtiliClassLibrary.Cerchio.Raggio
   name: Raggio
   href: api/ClassiUtiliClassLibrary.Cerchio.html#ClassiUtiliClassLibrary_Cerchio_Raggio
@@ -568,6 +587,38 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.EqIIGrado.X2
   nameWithType: EqIIGrado.X2
+- uid: ClassiUtiliClassLibrary.FiguraGeometrica2D
+  name: FiguraGeometrica2D
+  href: api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html
+  commentId: T:ClassiUtiliClassLibrary.FiguraGeometrica2D
+  fullName: ClassiUtiliClassLibrary.FiguraGeometrica2D
+  nameWithType: FiguraGeometrica2D
+- uid: ClassiUtiliClassLibrary.FiguraGeometrica2D.Area
+  name: Area()
+  href: api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html#ClassiUtiliClassLibrary_FiguraGeometrica2D_Area
+  commentId: M:ClassiUtiliClassLibrary.FiguraGeometrica2D.Area
+  fullName: ClassiUtiliClassLibrary.FiguraGeometrica2D.Area()
+  nameWithType: FiguraGeometrica2D.Area()
+- uid: ClassiUtiliClassLibrary.FiguraGeometrica2D.Area*
+  name: Area
+  href: api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html#ClassiUtiliClassLibrary_FiguraGeometrica2D_Area_
+  commentId: Overload:ClassiUtiliClassLibrary.FiguraGeometrica2D.Area
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.FiguraGeometrica2D.Area
+  nameWithType: FiguraGeometrica2D.Area
+- uid: ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro
+  name: Perimetro()
+  href: api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html#ClassiUtiliClassLibrary_FiguraGeometrica2D_Perimetro
+  commentId: M:ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro
+  fullName: ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro()
+  nameWithType: FiguraGeometrica2D.Perimetro()
+- uid: ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro*
+  name: Perimetro
+  href: api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html#ClassiUtiliClassLibrary_FiguraGeometrica2D_Perimetro_
+  commentId: Overload:ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.FiguraGeometrica2D.Perimetro
+  nameWithType: FiguraGeometrica2D.Perimetro
 - uid: ClassiUtiliClassLibrary.Frazione
   name: Frazione
   href: api/ClassiUtiliClassLibrary.Frazione.html
@@ -1184,6 +1235,89 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Punto2D.Y
   nameWithType: Punto2D.Y
+- uid: ClassiUtiliClassLibrary.Rettangolo
+  name: Rettangolo
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html
+  commentId: T:ClassiUtiliClassLibrary.Rettangolo
+  fullName: ClassiUtiliClassLibrary.Rettangolo
+  nameWithType: Rettangolo
+- uid: ClassiUtiliClassLibrary.Rettangolo.#ctor
+  name: Rettangolo()
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo__ctor
+  commentId: M:ClassiUtiliClassLibrary.Rettangolo.#ctor
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Rettangolo()
+  nameWithType: Rettangolo.Rettangolo()
+- uid: ClassiUtiliClassLibrary.Rettangolo.#ctor(System.Double)
+  name: Rettangolo(Double)
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo__ctor_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Rettangolo.#ctor(System.Double)
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Rettangolo(System.Double)
+  nameWithType: Rettangolo.Rettangolo(Double)
+- uid: ClassiUtiliClassLibrary.Rettangolo.#ctor(System.Double,System.Double)
+  name: Rettangolo(Double, Double)
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo__ctor_System_Double_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Rettangolo.#ctor(System.Double,System.Double)
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Rettangolo(System.Double, System.Double)
+  nameWithType: Rettangolo.Rettangolo(Double, Double)
+- uid: ClassiUtiliClassLibrary.Rettangolo.#ctor*
+  name: Rettangolo
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo__ctor_
+  commentId: Overload:ClassiUtiliClassLibrary.Rettangolo.#ctor
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Rettangolo
+  nameWithType: Rettangolo.Rettangolo
+- uid: ClassiUtiliClassLibrary.Rettangolo.Altezza
+  name: Altezza
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Altezza
+  commentId: P:ClassiUtiliClassLibrary.Rettangolo.Altezza
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Altezza
+  nameWithType: Rettangolo.Altezza
+- uid: ClassiUtiliClassLibrary.Rettangolo.Altezza*
+  name: Altezza
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Altezza_
+  commentId: Overload:ClassiUtiliClassLibrary.Rettangolo.Altezza
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Altezza
+  nameWithType: Rettangolo.Altezza
+- uid: ClassiUtiliClassLibrary.Rettangolo.Area
+  name: Area()
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Area
+  commentId: M:ClassiUtiliClassLibrary.Rettangolo.Area
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Area()
+  nameWithType: Rettangolo.Area()
+- uid: ClassiUtiliClassLibrary.Rettangolo.Area*
+  name: Area
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Area_
+  commentId: Overload:ClassiUtiliClassLibrary.Rettangolo.Area
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Area
+  nameWithType: Rettangolo.Area
+- uid: ClassiUtiliClassLibrary.Rettangolo.Base
+  name: Base
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Base
+  commentId: P:ClassiUtiliClassLibrary.Rettangolo.Base
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Base
+  nameWithType: Rettangolo.Base
+- uid: ClassiUtiliClassLibrary.Rettangolo.Base*
+  name: Base
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Base_
+  commentId: Overload:ClassiUtiliClassLibrary.Rettangolo.Base
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Base
+  nameWithType: Rettangolo.Base
+- uid: ClassiUtiliClassLibrary.Rettangolo.Perimetro
+  name: Perimetro()
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Perimetro
+  commentId: M:ClassiUtiliClassLibrary.Rettangolo.Perimetro
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Perimetro()
+  nameWithType: Rettangolo.Perimetro()
+- uid: ClassiUtiliClassLibrary.Rettangolo.Perimetro*
+  name: Perimetro
+  href: api/ClassiUtiliClassLibrary.Rettangolo.html#ClassiUtiliClassLibrary_Rettangolo_Perimetro_
+  commentId: Overload:ClassiUtiliClassLibrary.Rettangolo.Perimetro
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Rettangolo.Perimetro
+  nameWithType: Rettangolo.Perimetro
 - uid: ClassiUtiliClassLibrary.SistemaOperativo
   name: SistemaOperativo
   href: api/ClassiUtiliClassLibrary.SistemaOperativo.html

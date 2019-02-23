@@ -2,7 +2,7 @@
 
 namespace ClassiUtiliClassLibrary
 {
-    class Rettangolo : FiguraGeometrica2D
+    public class Rettangolo : FiguraGeometrica2D
     {
         private double _base;
         /// <summary>
@@ -26,7 +26,7 @@ namespace ClassiUtiliClassLibrary
         public Rettangolo(double @base, double altezza)
         {
             Base = @base;
-            Altezza = Altezza;
+            Altezza = altezza;
         }
         /// <summary>
         /// Costruttore che permette di costruire quadrati.
@@ -38,12 +38,12 @@ namespace ClassiUtiliClassLibrary
 
         public override double Area()
         {
-            throw new NotImplementedException();
+            return Base * Altezza;
         }
 
         public override double Perimetro()
         {
-            throw new NotImplementedException();
+            return 2 * (Base + Altezza);
         }
     }
 }

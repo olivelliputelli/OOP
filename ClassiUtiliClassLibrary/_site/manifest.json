@@ -12,7 +12,7 @@
           "hash": "ZO3KrXKkfIYCetOOSLBWhQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "ynHokZENuEXO0PmOYWJhoQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Cerchio.html",
-          "hash": "nCHxHEVwgUwXerABWYnNjQ=="
+          "hash": "t97oc75u/+DfAaqJIdkARg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,19 @@
           "hash": "3cftxqUrFg15FX7XccSy6Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.FiguraGeometrica2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.FiguraGeometrica2D.html",
+          "hash": "NXus7812Wb+BBv/aNg/mSQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +72,7 @@
           "hash": "ZH9DH5Rh9O3Ndi0voNZBQg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -72,7 +84,7 @@
           "hash": "FztOJzljBuNBD1A5jg0khQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +96,7 @@
           "hash": "d8I1GLjfQZblO4sVN/xcpw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +108,7 @@
           "hash": "0TE1pdddNViNIJl257U/xg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -108,7 +120,7 @@
           "hash": "NUCnhf3+SiFOvBRh1Qc3sA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +132,19 @@
           "hash": "3WH7+9MqeDyd3uhWozo2LQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Rettangolo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Rettangolo.html",
+          "hash": "lQ5GdU0Qy//yoxmbyNWNOA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -132,7 +156,7 @@
           "hash": "W1MEGzCD85OLZVaWQIFg8w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +168,7 @@
           "hash": "qcMSQorLfPzkWYfkd+EP6w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -156,7 +180,7 @@
           "hash": "AeElszDet1q2nLsU6iz6yQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -168,7 +192,7 @@
           "hash": "6FD0cOhKoNmwOaaDFtRdig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.html",
-          "hash": "7AZu1Pxz/BfiNpkj/8P2Bw=="
+          "hash": "TVdi30eqCo1G9aMM7mbD3w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +216,7 @@
           "hash": "+L0g9hIT1Me/SwqQer6NXg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "a8Db/W+TWM3PI2kt+XFX7A=="
+          "hash": "YwcYrEOgUIVa570lbxCJbg=="
         }
       },
       "is_incremental": false,
@@ -216,7 +240,7 @@
           "hash": "eyx+QOkP4ZHIjKNbMdag7A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -240,7 +264,7 @@
           "hash": "lu5hfQPNtSv8sb1SGifpBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -259,8 +283,7 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because docfx version changed from 2.40.7.0 to 2.40.8.0.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0
@@ -274,23 +297,23 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 15,
-          "skipped_file_count": 0
+          "total_file_count": 17,
+          "skipped_file_count": 17
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
