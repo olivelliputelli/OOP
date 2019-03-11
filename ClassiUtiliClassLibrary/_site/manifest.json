@@ -12,7 +12,7 @@
           "hash": "ZO3KrXKkfIYCetOOSLBWhQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "ynHokZENuEXO0PmOYWJhoQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "t97oc75u/+DfAaqJIdkARg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "3cftxqUrFg15FX7XccSy6Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "NXus7812Wb+BBv/aNg/mSQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "ZH9DH5Rh9O3Ndi0voNZBQg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "FztOJzljBuNBD1A5jg0khQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "d8I1GLjfQZblO4sVN/xcpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "0TE1pdddNViNIJl257U/xg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,19 @@
           "hash": "NUCnhf3+SiFOvBRh1Qc3sA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Punto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Punto.html",
+          "hash": "eZTjX+EEZe/JVOLTL3oxWA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -132,7 +144,19 @@
           "hash": "3WH7+9MqeDyd3uhWozo2LQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.PuntoOrientato.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.PuntoOrientato.html",
+          "hash": "chHh9HXOvU9mLz+EoTteIg=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +168,7 @@
           "hash": "lQ5GdU0Qy//yoxmbyNWNOA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -156,7 +180,19 @@
           "hash": "W1MEGzCD85OLZVaWQIFg8w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.TOrientamento.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.TOrientamento.html",
+          "hash": "h/ftyglymroMzSNjFi7BtA=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +204,7 @@
           "hash": "qcMSQorLfPzkWYfkd+EP6w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,7 +216,7 @@
           "hash": "AeElszDet1q2nLsU6iz6yQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -192,7 +228,7 @@
           "hash": "6FD0cOhKoNmwOaaDFtRdig=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -201,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.html",
-          "hash": "TVdi30eqCo1G9aMM7mbD3w=="
+          "hash": "/WxmSNgXHyxAT9ujf3tk2w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -216,7 +252,7 @@
           "hash": "+L0g9hIT1Me/SwqQer6NXg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "YwcYrEOgUIVa570lbxCJbg=="
+          "hash": "jeKPzCVFKiWOwF0Q8rKA+g=="
         }
       },
       "is_incremental": false,
@@ -289,13 +325,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
@@ -305,8 +334,15 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 17,
+          "total_file_count": 20,
           "skipped_file_count": 17
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         }
       }
     },

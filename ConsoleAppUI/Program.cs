@@ -8,18 +8,27 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            var figure2D = new List<FiguraGeometrica2D>
-            {
-                new Cerchio(4),
-                new Rettangolo(5),
-                new Rettangolo(2,3),
-                new Cerchio(1)
-            };
+            PuntoOrientato po1;
+            po1 = new PuntoOrientato(1, 1, TOrientamento.D);
+            var po2 = new PuntoOrientato(2, 2, TOrientamento.A);
+            var po3 = new PuntoOrientato(po1);
 
-            foreach (var f in figure2D)
-            {
-                Console.WriteLine($"{f.GetType()} - Area = {f.Area()} m^2");
-            }
+            Console.WriteLine($"PO1 = {po1}");
+            Console.WriteLine($"PO2 = {po2}");
+            Console.WriteLine($"PO3 = {po3}");
+            Console.WriteLine($"Distanza PO1-PO2 = {po1.Distanza(po2)}");
+
+            Console.WriteLine($"Distanza PO1-PO3 = {po1.Distanza(po3)}");
+
+            if(po1.Equals(po3))
+                Console.WriteLine("PO1 e PO3 sono uguali!!");
+            else
+                Console.WriteLine("PO1 e PO3 NON sono uguali!!");
+
+            po1.RuotaSinistra();
+            Console.WriteLine($"PO1 = {po1}");
+            po1.Sposta(10);
+            Console.WriteLine($"PO1 = {po1}");
 
         }
     }
