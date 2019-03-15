@@ -14,7 +14,7 @@ namespace ClassiUtiliClassLibrary
         /// <param name="x">coordinata X</param>
         /// <param name="y">coordinata Y</param>
         public Punto(double x, double y)
-        {
+        {            
             X = x;
             Y = y;
         }

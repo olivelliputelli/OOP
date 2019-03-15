@@ -439,6 +439,64 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Cerchio.Raggio
   nameWithType: Cerchio.Raggio
+- uid: ClassiUtiliClassLibrary.Cubo
+  name: Cubo
+  href: api/ClassiUtiliClassLibrary.Cubo.html
+  commentId: T:ClassiUtiliClassLibrary.Cubo
+  fullName: ClassiUtiliClassLibrary.Cubo
+  nameWithType: Cubo
+- uid: ClassiUtiliClassLibrary.Cubo.#ctor(System.Double,System.Double)
+  name: Cubo(Double, Double)
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo__ctor_System_Double_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Cubo.#ctor(System.Double,System.Double)
+  fullName: ClassiUtiliClassLibrary.Cubo.Cubo(System.Double, System.Double)
+  nameWithType: Cubo.Cubo(Double, Double)
+- uid: ClassiUtiliClassLibrary.Cubo.#ctor*
+  name: Cubo
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo__ctor_
+  commentId: Overload:ClassiUtiliClassLibrary.Cubo.#ctor
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cubo.Cubo
+  nameWithType: Cubo.Cubo
+- uid: ClassiUtiliClassLibrary.Cubo.Lato
+  name: Lato
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Lato
+  commentId: P:ClassiUtiliClassLibrary.Cubo.Lato
+  fullName: ClassiUtiliClassLibrary.Cubo.Lato
+  nameWithType: Cubo.Lato
+- uid: ClassiUtiliClassLibrary.Cubo.Lato*
+  name: Lato
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Lato_
+  commentId: Overload:ClassiUtiliClassLibrary.Cubo.Lato
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cubo.Lato
+  nameWithType: Cubo.Lato
+- uid: ClassiUtiliClassLibrary.Cubo.Superficie
+  name: Superficie()
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Superficie
+  commentId: M:ClassiUtiliClassLibrary.Cubo.Superficie
+  fullName: ClassiUtiliClassLibrary.Cubo.Superficie()
+  nameWithType: Cubo.Superficie()
+- uid: ClassiUtiliClassLibrary.Cubo.Superficie*
+  name: Superficie
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Superficie_
+  commentId: Overload:ClassiUtiliClassLibrary.Cubo.Superficie
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cubo.Superficie
+  nameWithType: Cubo.Superficie
+- uid: ClassiUtiliClassLibrary.Cubo.Volume
+  name: Volume()
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Volume
+  commentId: M:ClassiUtiliClassLibrary.Cubo.Volume
+  fullName: ClassiUtiliClassLibrary.Cubo.Volume()
+  nameWithType: Cubo.Volume()
+- uid: ClassiUtiliClassLibrary.Cubo.Volume*
+  name: Volume
+  href: api/ClassiUtiliClassLibrary.Cubo.html#ClassiUtiliClassLibrary_Cubo_Volume_
+  commentId: Overload:ClassiUtiliClassLibrary.Cubo.Volume
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Cubo.Volume
+  nameWithType: Cubo.Volume
 - uid: ClassiUtiliClassLibrary.EqIIGrado
   name: EqIIGrado
   href: api/ClassiUtiliClassLibrary.EqIIGrado.html
@@ -785,6 +843,57 @@ references:
   commentId: F:ClassiUtiliClassLibrary.Genere.N
   fullName: ClassiUtiliClassLibrary.Genere.N
   nameWithType: Genere.N
+- uid: ClassiUtiliClassLibrary.ICorpoSolido
+  name: ICorpoSolido
+  href: api/ClassiUtiliClassLibrary.ICorpoSolido.html
+  commentId: T:ClassiUtiliClassLibrary.ICorpoSolido
+  fullName: ClassiUtiliClassLibrary.ICorpoSolido
+  nameWithType: ICorpoSolido
+- uid: ClassiUtiliClassLibrary.ICorpoSolido.Peso
+  name: Peso()
+  href: api/ClassiUtiliClassLibrary.ICorpoSolido.html#ClassiUtiliClassLibrary_ICorpoSolido_Peso
+  commentId: M:ClassiUtiliClassLibrary.ICorpoSolido.Peso
+  fullName: ClassiUtiliClassLibrary.ICorpoSolido.Peso()
+  nameWithType: ICorpoSolido.Peso()
+- uid: ClassiUtiliClassLibrary.ICorpoSolido.Peso*
+  name: Peso
+  href: api/ClassiUtiliClassLibrary.ICorpoSolido.html#ClassiUtiliClassLibrary_ICorpoSolido_Peso_
+  commentId: Overload:ClassiUtiliClassLibrary.ICorpoSolido.Peso
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.ICorpoSolido.Peso
+  nameWithType: ICorpoSolido.Peso
+- uid: ClassiUtiliClassLibrary.IFiguraSolida
+  name: IFiguraSolida
+  href: api/ClassiUtiliClassLibrary.IFiguraSolida.html
+  commentId: T:ClassiUtiliClassLibrary.IFiguraSolida
+  fullName: ClassiUtiliClassLibrary.IFiguraSolida
+  nameWithType: IFiguraSolida
+- uid: ClassiUtiliClassLibrary.IFiguraSolida.Superficie
+  name: Superficie()
+  href: api/ClassiUtiliClassLibrary.IFiguraSolida.html#ClassiUtiliClassLibrary_IFiguraSolida_Superficie
+  commentId: M:ClassiUtiliClassLibrary.IFiguraSolida.Superficie
+  fullName: ClassiUtiliClassLibrary.IFiguraSolida.Superficie()
+  nameWithType: IFiguraSolida.Superficie()
+- uid: ClassiUtiliClassLibrary.IFiguraSolida.Superficie*
+  name: Superficie
+  href: api/ClassiUtiliClassLibrary.IFiguraSolida.html#ClassiUtiliClassLibrary_IFiguraSolida_Superficie_
+  commentId: Overload:ClassiUtiliClassLibrary.IFiguraSolida.Superficie
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.IFiguraSolida.Superficie
+  nameWithType: IFiguraSolida.Superficie
+- uid: ClassiUtiliClassLibrary.IFiguraSolida.Volume
+  name: Volume()
+  href: api/ClassiUtiliClassLibrary.IFiguraSolida.html#ClassiUtiliClassLibrary_IFiguraSolida_Volume
+  commentId: M:ClassiUtiliClassLibrary.IFiguraSolida.Volume
+  fullName: ClassiUtiliClassLibrary.IFiguraSolida.Volume()
+  nameWithType: IFiguraSolida.Volume()
+- uid: ClassiUtiliClassLibrary.IFiguraSolida.Volume*
+  name: Volume
+  href: api/ClassiUtiliClassLibrary.IFiguraSolida.html#ClassiUtiliClassLibrary_IFiguraSolida_Volume_
+  commentId: Overload:ClassiUtiliClassLibrary.IFiguraSolida.Volume
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.IFiguraSolida.Volume
+  nameWithType: IFiguraSolida.Volume
 - uid: ClassiUtiliClassLibrary.NumeroComplesso
   name: NumeroComplesso
   href: api/ClassiUtiliClassLibrary.NumeroComplesso.html
@@ -1337,6 +1446,12 @@ references:
   commentId: T:ClassiUtiliClassLibrary.PuntoOrientato
   fullName: ClassiUtiliClassLibrary.PuntoOrientato
   nameWithType: PuntoOrientato
+- uid: ClassiUtiliClassLibrary.PuntoOrientato.#ctor
+  name: PuntoOrientato()
+  href: api/ClassiUtiliClassLibrary.PuntoOrientato.html#ClassiUtiliClassLibrary_PuntoOrientato__ctor
+  commentId: M:ClassiUtiliClassLibrary.PuntoOrientato.#ctor
+  fullName: ClassiUtiliClassLibrary.PuntoOrientato.PuntoOrientato()
+  nameWithType: PuntoOrientato.PuntoOrientato()
 - uid: ClassiUtiliClassLibrary.PuntoOrientato.#ctor(ClassiUtiliClassLibrary.PuntoOrientato)
   name: PuntoOrientato(PuntoOrientato)
   href: api/ClassiUtiliClassLibrary.PuntoOrientato.html#ClassiUtiliClassLibrary_PuntoOrientato__ctor_ClassiUtiliClassLibrary_PuntoOrientato_
@@ -1517,6 +1632,64 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Rettangolo.Perimetro
   nameWithType: Rettangolo.Perimetro
+- uid: ClassiUtiliClassLibrary.Sfera
+  name: Sfera
+  href: api/ClassiUtiliClassLibrary.Sfera.html
+  commentId: T:ClassiUtiliClassLibrary.Sfera
+  fullName: ClassiUtiliClassLibrary.Sfera
+  nameWithType: Sfera
+- uid: ClassiUtiliClassLibrary.Sfera.#ctor(System.Double,System.Double)
+  name: Sfera(Double, Double)
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera__ctor_System_Double_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Sfera.#ctor(System.Double,System.Double)
+  fullName: ClassiUtiliClassLibrary.Sfera.Sfera(System.Double, System.Double)
+  nameWithType: Sfera.Sfera(Double, Double)
+- uid: ClassiUtiliClassLibrary.Sfera.#ctor*
+  name: Sfera
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera__ctor_
+  commentId: Overload:ClassiUtiliClassLibrary.Sfera.#ctor
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Sfera.Sfera
+  nameWithType: Sfera.Sfera
+- uid: ClassiUtiliClassLibrary.Sfera.Raggio
+  name: Raggio
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Raggio
+  commentId: P:ClassiUtiliClassLibrary.Sfera.Raggio
+  fullName: ClassiUtiliClassLibrary.Sfera.Raggio
+  nameWithType: Sfera.Raggio
+- uid: ClassiUtiliClassLibrary.Sfera.Raggio*
+  name: Raggio
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Raggio_
+  commentId: Overload:ClassiUtiliClassLibrary.Sfera.Raggio
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Sfera.Raggio
+  nameWithType: Sfera.Raggio
+- uid: ClassiUtiliClassLibrary.Sfera.Superficie
+  name: Superficie()
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Superficie
+  commentId: M:ClassiUtiliClassLibrary.Sfera.Superficie
+  fullName: ClassiUtiliClassLibrary.Sfera.Superficie()
+  nameWithType: Sfera.Superficie()
+- uid: ClassiUtiliClassLibrary.Sfera.Superficie*
+  name: Superficie
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Superficie_
+  commentId: Overload:ClassiUtiliClassLibrary.Sfera.Superficie
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Sfera.Superficie
+  nameWithType: Sfera.Superficie
+- uid: ClassiUtiliClassLibrary.Sfera.Volume
+  name: Volume()
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Volume
+  commentId: M:ClassiUtiliClassLibrary.Sfera.Volume
+  fullName: ClassiUtiliClassLibrary.Sfera.Volume()
+  nameWithType: Sfera.Volume()
+- uid: ClassiUtiliClassLibrary.Sfera.Volume*
+  name: Volume
+  href: api/ClassiUtiliClassLibrary.Sfera.html#ClassiUtiliClassLibrary_Sfera_Volume_
+  commentId: Overload:ClassiUtiliClassLibrary.Sfera.Volume
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Sfera.Volume
+  nameWithType: Sfera.Volume
 - uid: ClassiUtiliClassLibrary.SistemaOperativo
   name: SistemaOperativo
   href: api/ClassiUtiliClassLibrary.SistemaOperativo.html
@@ -1547,6 +1720,77 @@ references:
   commentId: F:ClassiUtiliClassLibrary.SistemaOperativo.Windows
   fullName: ClassiUtiliClassLibrary.SistemaOperativo.Windows
   nameWithType: SistemaOperativo.Windows
+- uid: ClassiUtiliClassLibrary.Solido
+  name: Solido
+  href: api/ClassiUtiliClassLibrary.Solido.html
+  commentId: T:ClassiUtiliClassLibrary.Solido
+  fullName: ClassiUtiliClassLibrary.Solido
+  nameWithType: Solido
+- uid: ClassiUtiliClassLibrary.Solido.#ctor(System.Double)
+  name: Solido(Double)
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido__ctor_System_Double_
+  commentId: M:ClassiUtiliClassLibrary.Solido.#ctor(System.Double)
+  fullName: ClassiUtiliClassLibrary.Solido.Solido(System.Double)
+  nameWithType: Solido.Solido(Double)
+- uid: ClassiUtiliClassLibrary.Solido.#ctor*
+  name: Solido
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido__ctor_
+  commentId: Overload:ClassiUtiliClassLibrary.Solido.#ctor
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Solido.Solido
+  nameWithType: Solido.Solido
+- uid: ClassiUtiliClassLibrary.Solido.Peso
+  name: Peso()
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Peso
+  commentId: M:ClassiUtiliClassLibrary.Solido.Peso
+  fullName: ClassiUtiliClassLibrary.Solido.Peso()
+  nameWithType: Solido.Peso()
+- uid: ClassiUtiliClassLibrary.Solido.Peso*
+  name: Peso
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Peso_
+  commentId: Overload:ClassiUtiliClassLibrary.Solido.Peso
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Solido.Peso
+  nameWithType: Solido.Peso
+- uid: ClassiUtiliClassLibrary.Solido.PesoSpecifico
+  name: PesoSpecifico
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_PesoSpecifico
+  commentId: P:ClassiUtiliClassLibrary.Solido.PesoSpecifico
+  fullName: ClassiUtiliClassLibrary.Solido.PesoSpecifico
+  nameWithType: Solido.PesoSpecifico
+- uid: ClassiUtiliClassLibrary.Solido.PesoSpecifico*
+  name: PesoSpecifico
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_PesoSpecifico_
+  commentId: Overload:ClassiUtiliClassLibrary.Solido.PesoSpecifico
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Solido.PesoSpecifico
+  nameWithType: Solido.PesoSpecifico
+- uid: ClassiUtiliClassLibrary.Solido.Superficie
+  name: Superficie()
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Superficie
+  commentId: M:ClassiUtiliClassLibrary.Solido.Superficie
+  fullName: ClassiUtiliClassLibrary.Solido.Superficie()
+  nameWithType: Solido.Superficie()
+- uid: ClassiUtiliClassLibrary.Solido.Superficie*
+  name: Superficie
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Superficie_
+  commentId: Overload:ClassiUtiliClassLibrary.Solido.Superficie
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Solido.Superficie
+  nameWithType: Solido.Superficie
+- uid: ClassiUtiliClassLibrary.Solido.Volume
+  name: Volume()
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Volume
+  commentId: M:ClassiUtiliClassLibrary.Solido.Volume
+  fullName: ClassiUtiliClassLibrary.Solido.Volume()
+  nameWithType: Solido.Volume()
+- uid: ClassiUtiliClassLibrary.Solido.Volume*
+  name: Volume
+  href: api/ClassiUtiliClassLibrary.Solido.html#ClassiUtiliClassLibrary_Solido_Volume_
+  commentId: Overload:ClassiUtiliClassLibrary.Solido.Volume
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Solido.Volume
+  nameWithType: Solido.Volume
 - uid: ClassiUtiliClassLibrary.Timer
   name: Timer
   href: api/ClassiUtiliClassLibrary.Timer.html

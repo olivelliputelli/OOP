@@ -41,6 +41,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Cubo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Cubo.html",
+          "hash": "A/6Fd3lrfvRFuYI3hLfevQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ClassiUtiliClassLibrary.EqIIGrado.yml",
       "output": {
         ".html": {
@@ -82,6 +94,30 @@
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.Genere.html",
           "hash": "FztOJzljBuNBD1A5jg0khQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.ICorpoSolido.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.ICorpoSolido.html",
+          "hash": "VuNHwmffJlHkH94B/SZ/0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.IFiguraSolida.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.IFiguraSolida.html",
+          "hash": "h6edzM1aWC2LM9o8x1Bb4A=="
         }
       },
       "is_incremental": false,
@@ -153,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.PuntoOrientato.html",
-          "hash": "chHh9HXOvU9mLz+EoTteIg=="
+          "hash": "3LHHCjIKrwQoK5bL96+42Q=="
         }
       },
       "is_incremental": false,
@@ -173,6 +209,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Sfera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Sfera.html",
+          "hash": "W9Ng4USjxRLqcbimvjy3UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ClassiUtiliClassLibrary.SistemaOperativo.yml",
       "output": {
         ".html": {
@@ -185,11 +233,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ClassiUtiliClassLibrary.Solido.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ClassiUtiliClassLibrary.Solido.html",
+          "hash": "YBzby2RGw5i3DKcGl9Xx5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ClassiUtiliClassLibrary.TOrientamento.yml",
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.TOrientamento.html",
-          "hash": "h/ftyglymroMzSNjFi7BtA=="
+          "hash": "sBfYJtkKdZf/5OF1Iqldtw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ClassiUtiliClassLibrary.html",
-          "hash": "/WxmSNgXHyxAT9ujf3tk2w=="
+          "hash": "rI73nYPgLS1TJ8pDKesx8g=="
         }
       },
       "is_incremental": false,
@@ -261,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jeKPzCVFKiWOwF0Q8rKA+g=="
+          "hash": "oLZbr/X6EQGxrkTZp2W5MA=="
         }
       },
       "is_incremental": false,
@@ -325,24 +385,24 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 20,
-          "skipped_file_count": 17
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 25,
+          "skipped_file_count": 19
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
         }
       }
     },

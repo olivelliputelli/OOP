@@ -6,6 +6,7 @@ namespace ClassiUtiliClassLibrary
 
     public class Persona
     {
+        public int PersonaId { get; set; }
         public string Nome { get; set; }
         public Genere Sesso { get; set; } = Genere.N;
 

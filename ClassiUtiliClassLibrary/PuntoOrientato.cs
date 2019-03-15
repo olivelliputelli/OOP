@@ -4,16 +4,27 @@ using System.Text;
 
 namespace ClassiUtiliClassLibrary
 {
+
     public enum TOrientamento { A, D, B, S }
     public class PuntoOrientato : Punto
     {
         public TOrientamento Orientamento { get; set; }
             = TOrientamento.A;
-        public PuntoOrientato(double x, double y, TOrientamento o)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <param name="o"></param>
+        public PuntoOrientato
+            (double x, double y, TOrientamento o)
             : base(x, y)
         {
             this.Orientamento = o;
         }
+        public PuntoOrientato() 
+            : this(0, 0, TOrientamento.A)
+        { }
         public PuntoOrientato(PuntoOrientato po)
             : this(po.X, po.Y, po.Orientamento) { }
 
@@ -76,7 +87,8 @@ namespace ClassiUtiliClassLibrary
         {
             return
                 base.Equals(obj as Punto) &&
-                (obj as PuntoOrientato).Orientamento == this.Orientamento;
+                (obj as PuntoOrientato).Orientamento 
+                == this.Orientamento;
         }
         public override string ToString()
         {

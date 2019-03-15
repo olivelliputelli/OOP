@@ -121,6 +121,14 @@
             <param name="x">coordinata X</param>
             <param name="y">coordinata Y</param>
         </member>
+        <member name="M:ClassiUtiliClassLibrary.PuntoOrientato.#ctor(System.Double,System.Double,ClassiUtiliClassLibrary.TOrientamento)">
+            <summary>
+            
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="o"></param>
+        </member>
         <member name="P:ClassiUtiliClassLibrary.Rettangolo.Base">
             <summary>
             Proprietà Base.
@@ -136,6 +144,17 @@
             Costruttore che permette di costruire quadrati.
             </summary>
             <param name="lato">Lato del quadrato.</param>
+        </member>
+        <member name="T:ClassiUtiliClassLibrary.Solido">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.Solido.Volume">
+            <summary>
+            Metodo astratto, non so la formula giusta..
+            </summary>
+            <returns></returns>
         </member>
         <member name="T:ClassiUtiliClassLibrary.Veicolo">
             <summary>
