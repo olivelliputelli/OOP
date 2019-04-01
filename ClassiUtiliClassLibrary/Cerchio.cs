@@ -3,13 +3,13 @@
 namespace ClassiUtiliClassLibrary
 {
     /// <summary>
-    /// Classe Cerchio 
+    /// Classe Cerchio.
     /// </summary>
     public class Cerchio : FiguraGeometrica2D
     {
         private double _raggio;
         /// <summary>
-        /// Proprietà Raggio
+        /// Proprietà Raggio.
         /// </summary>
         public double Raggio
         {

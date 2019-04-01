@@ -894,6 +894,32 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.IFiguraSolida.Volume
   nameWithType: IFiguraSolida.Volume
+- uid: ClassiUtiliClassLibrary.IRepository`2
+  name: IRepository<T, TKey>
+  href: api/ClassiUtiliClassLibrary.IRepository-2.html
+  commentId: T:ClassiUtiliClassLibrary.IRepository`2
+  name.vb: IRepository(Of T, TKey)
+  fullName: ClassiUtiliClassLibrary.IRepository<T, TKey>
+  fullName.vb: ClassiUtiliClassLibrary.IRepository(Of T, TKey)
+  nameWithType: IRepository<T, TKey>
+  nameWithType.vb: IRepository(Of T, TKey)
+- uid: ClassiUtiliClassLibrary.IRepository`2.GetItemBy(`1)
+  name: GetItemBy(TKey)
+  href: api/ClassiUtiliClassLibrary.IRepository-2.html#ClassiUtiliClassLibrary_IRepository_2_GetItemBy__1_
+  commentId: M:ClassiUtiliClassLibrary.IRepository`2.GetItemBy(`1)
+  fullName: ClassiUtiliClassLibrary.IRepository<T, TKey>.GetItemBy(TKey)
+  fullName.vb: ClassiUtiliClassLibrary.IRepository(Of T, TKey).GetItemBy(TKey)
+  nameWithType: IRepository<T, TKey>.GetItemBy(TKey)
+  nameWithType.vb: IRepository(Of T, TKey).GetItemBy(TKey)
+- uid: ClassiUtiliClassLibrary.IRepository`2.GetItemBy*
+  name: GetItemBy
+  href: api/ClassiUtiliClassLibrary.IRepository-2.html#ClassiUtiliClassLibrary_IRepository_2_GetItemBy_
+  commentId: Overload:ClassiUtiliClassLibrary.IRepository`2.GetItemBy
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.IRepository<T, TKey>.GetItemBy
+  fullName.vb: ClassiUtiliClassLibrary.IRepository(Of T, TKey).GetItemBy
+  nameWithType: IRepository<T, TKey>.GetItemBy
+  nameWithType.vb: IRepository(Of T, TKey).GetItemBy
 - uid: ClassiUtiliClassLibrary.NumeroComplesso
   name: NumeroComplesso
   href: api/ClassiUtiliClassLibrary.NumeroComplesso.html
@@ -1106,6 +1132,19 @@ references:
   isSpec: "True"
   fullName: ClassiUtiliClassLibrary.Persona.Nome
   nameWithType: Persona.Nome
+- uid: ClassiUtiliClassLibrary.Persona.PersonaId
+  name: PersonaId
+  href: api/ClassiUtiliClassLibrary.Persona.html#ClassiUtiliClassLibrary_Persona_PersonaId
+  commentId: P:ClassiUtiliClassLibrary.Persona.PersonaId
+  fullName: ClassiUtiliClassLibrary.Persona.PersonaId
+  nameWithType: Persona.PersonaId
+- uid: ClassiUtiliClassLibrary.Persona.PersonaId*
+  name: PersonaId
+  href: api/ClassiUtiliClassLibrary.Persona.html#ClassiUtiliClassLibrary_Persona_PersonaId_
+  commentId: Overload:ClassiUtiliClassLibrary.Persona.PersonaId
+  isSpec: "True"
+  fullName: ClassiUtiliClassLibrary.Persona.PersonaId
+  nameWithType: Persona.PersonaId
 - uid: ClassiUtiliClassLibrary.Persona.Professione
   name: Professione
   href: api/ClassiUtiliClassLibrary.Persona.html#ClassiUtiliClassLibrary_Persona_Professione

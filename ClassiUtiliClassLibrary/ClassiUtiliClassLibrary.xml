@@ -114,6 +114,20 @@
             Classe astratta che rappresenta tutte le figure geometriche della geometria piana.
             </summary>
         </member>
+        <member name="T:ClassiUtiliClassLibrary.IRepository`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="M:ClassiUtiliClassLibrary.IRepository`2.GetItemBy(`1)">
+            <summary>
+            
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
         <member name="M:ClassiUtiliClassLibrary.Punto.#ctor(System.Double,System.Double)">
             <summary>
             Crea un punto.

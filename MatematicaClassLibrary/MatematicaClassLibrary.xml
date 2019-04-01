@@ -17,9 +17,9 @@
         </member>
         <member name="M:MatematicaClassLibrary.Geometria2D.Cerchio.Area">
             <summary>
-            
+            Area del cerchio.
             </summary>
-            <returns></returns>
+            <returns>Area del cerchio.</returns>
         </member>
         <member name="T:MatematicaClassLibrary.Matematica">
             <summary>

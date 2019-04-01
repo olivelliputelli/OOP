@@ -22,9 +22,9 @@ namespace MatematicaClassLibrary.Geometria2D
         }
 
         /// <summary>
-        /// 
+        /// Area del cerchio.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Area del cerchio.</returns>
         public double Area()
         {
             return Math.PI * Math.Pow(Raggio, 2);

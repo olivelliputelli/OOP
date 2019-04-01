@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System;
 using System.Linq;
+using System.Collections;
 
 namespace ConsoleAppUI
 {
@@ -9,28 +10,36 @@ namespace ConsoleAppUI
     {
         static void Main()
         {
-            Random rnd = new Random();
-            IFiguraSolida fs;
-            int nc =rnd.Next(10);
+            //Random rnd = new Random();
+            //IFiguraSolida fs;
+            //int nc =rnd.Next(10);
 
-            Console.WriteLine($"Numero casulae = {nc}");
+            //Console.WriteLine($"Numero casulae = {nc}");
 
-            if (nc > 5)
-                fs = new Sfera(3, 0.4);
-            else
-                fs = new Cubo(1, 1);
+            //if (nc > 5)
+            //    fs = new Sfera(3, 0.4);
+            //else
+            //    fs = new Cubo(1, 1);
 
-            List<Persona> persone = new List<Persona>();
+            //Console
+            //    .WriteLine($"{fs.GetType()} - Volume = {fs.Volume()} m^3");
 
-            Console.WriteLine($"{fs.GetType()} - Volume = {fs.Volume()} m^3");
-            Console.WriteLine();
+            //Console.WriteLine(typeof(Cubo));
+
             //Object obj22 = new Object();
-            
 
-            //List<Solido> solidi = new List<Solido>();
+            List<int> numeri = new List<int>();
 
-            //solidi.Add(new Cubo());
+            List<Solido> solidi = new List<Solido>();
 
+            solidi.Add(new Cubo(3,0.7));
+            solidi.Add(new Sfera(3,6));
+
+            ArrayList lista = new ArrayList();
+
+            lista[0] = "5";
+            lista[1] = 5;
+            lista[2] = new Cubo(2, 4);
 
 
             //List<Punto> punti = new List<Punto>();
